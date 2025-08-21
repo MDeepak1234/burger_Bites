@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.content img {
+  max-width: 150px; 
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+  color: black;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+input {
+  height: 2rem;
+  width: 100%;
+  max-width: 300px;
+  color: black;
+  margin: 0.5rem auto;
+  display: block;
+  padding: 0.3rem;
+}
+
+.sign-in {
+  background-color: black ;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.content p {
+  text-align: center;
+  color: black;
+}
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.black a {
+  color: black;
+  text-decoration: underline;
+}
+
+.sign-in:hover {
+  background-color: #333;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 1rem;
+  }
+
+  input, .email, .password {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  img {
+    transform: scale(0.8);
+    max-width: 100%;
+    height: auto;
+  }
+}

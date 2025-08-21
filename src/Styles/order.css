@@ -1,0 +1,17 @@
+button{
+    width: 14vw;
+    height: 8vh;
+    background-color: white;
+    color: black !important;
+    border: 0.1vw solid black;
+    margin-bottom: 2vh !important;
+    border-radius: 1rem !important;
+}
+button:hover{
+    background-color: rgb(223, 222, 194);
+}
+@media (max-width:668px){
+    button{
+        width: 25vw;
+    }
+}

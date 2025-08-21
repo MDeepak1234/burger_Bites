@@ -1,0 +1,22 @@
+.bill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17vw;
+}
+.s{
+    font-weight: bold;
+}
+.cart-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.cart-cart{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
